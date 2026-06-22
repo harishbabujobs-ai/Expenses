@@ -63,6 +63,15 @@ Include header: `Authorization: Bearer <token>` for protected endpoints.
 - Link to the live repo: `https://github.com/harishbabujobs-ai/Expenses`
 - Mention stack: Node.js, Express, MongoDB, Mongoose, JWT, bcrypt
 
+Seed data
+---------
+To quickly populate the database with sample expenses for a portfolio demo, run:
+
+```bash
+# ensure MONGODB_URI is set in .env then:
+node scripts/seed_sample.js
+```
+
 ## Contact
 Harish Babu — harishbabu.jobs@gmail.com
 
